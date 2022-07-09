@@ -5,6 +5,6 @@ This is a code along project
  Instructor: jonasschmedtmann
  
  
- Course: advanced-css-course
+ Course: advanced-CSS/Sass-course
  
  Still in progress...
