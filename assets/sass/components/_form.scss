@@ -67,9 +67,8 @@
     border: 5px solid $color-primary;
     border-radius: 50%;
     display: inline-block;
-    position: absolute;
-    left: 0;
-    top: -0.4rem;
+    @include absTop;
+    top: -0.4rem !important;
 
     &::after {
       height: 1rem;
@@ -77,10 +76,7 @@
       content: "";
       display: block;
       border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      @include absCenter;
       background-color: $color-primary;
       opacity: 0;
       transition: opacity 0.3s;
