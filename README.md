@@ -1,6 +1,7 @@
 # Natours-Design-Project
 
-This was a code along project using Html/CSS/Sass
+This was a code along project using Html/CSS/Sass/BEM
 
- Instructor: Jonas Schmedtmann
+The Images are responsive
 
+Instructor: Jonas Schmedtmann
