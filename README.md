@@ -1,10 +1,7 @@
-# Advanced-CSS-Sass-Flexbox--Grid-Animations-Project
-This is a code along project
+# Natours-Design-Project
+
+This was a code along project using Html/CSS/Sass
 
 
- Instructor: jonasschmedtmann
- 
- 
- Course: advanced-CSS/Sass-course
- 
- Still in progress...
+ Instructor: Jonas Schmedtmann
+
