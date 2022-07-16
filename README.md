@@ -1,4 +1,4 @@
-# Natours-Design-Project
+# Natours / Trillo / Nester Projects
 
 This was a code along project using Html/CSS/Sass/BEM
 
