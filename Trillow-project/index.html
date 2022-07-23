@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="./css/sass/main.css">
+    <link rel="stylesheet" href="./css-img/sass/main.css">
 
     <title>trillo &mdash; Your all-in-one booking app</title>
   </head>
@@ -13,13 +13,13 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="./css/images/logo.png" alt="Trillo logo" class="logo">
+        <img src="./css-img/images/logo.png" alt="Trillo logo" class="logo">
 
         <form action="#" class="search">
           <input type="text" class="search__input" placeholder="Search hotels">
           <button class="search__btn">
             <svg class="search__icon">
-              <use xlink:href="./css/images/sprite.svg#icon-magnifying-glass"></use>
+              <use xlink:href="./css-img/images/sprite.svg#icon-magnifying-glass"></use>
             </svg>
           </button>
         </form>
@@ -27,7 +27,7 @@
         <nav class="user-nav">
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
-              <use xlink:href="./css/images/sprite.svg#icon-bookmark"></use>
+              <use xlink:href="./css-img/images/sprite.svg#icon-bookmark"></use>
             </svg>
             <span class="user-nav__notification">7</span>
           </div>
@@ -35,15 +35,23 @@
           <div class="user-nav">
             <div class="user-nav__icon-box">
               <svg class="user-nav__icon">
-                <use xlink:href="./css/images/sprite.svg#icon-chat"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-chat"></use>
               </svg>
               <span class="user-nav__notification">13</span>
             </div>
           </div>
 
           <div class="user-nav__user">
-            <img src="./css/images/user.jpg" alt="User Photo" class="user-nav__user-photo">
+            <img src="./css-img/images/user.jpg" alt="User Photo" class="user-nav__user-photo">
             <span class="user-nav__user-name">Jonas</span>
+
+            <div class="user-nav__user-hidden">
+              <ul class="user-nav__user-menu">
+                <li class="user-nav__user-item">Profile</li>
+                <li class="user-nav__user-item">Support</li>
+                <li class="user-nav__user-item">Settings</li>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
@@ -54,28 +62,28 @@
             <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
-                  <use xlink:href="./css/images/sprite.svg#icon-home"></use>
+                  <use xlink:href="./css-img/images/sprite.svg#icon-home"></use>
                 </svg><span>Hotel</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
-                  <use xlink:href="./css/images/sprite.svg#icon-aircraft-take-off"></use>
+                  <use xlink:href="./css-img/images/sprite.svg#icon-aircraft-take-off"></use>
                 </svg><span>Flight</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
-                  <use xlink:href="./css/images/sprite.svg#icon-key"></use>
+                  <use xlink:href="./css-img/images/sprite.svg#icon-key"></use>
                 </svg><span>Car rental</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
-                  <use xlink:href="./css/images/sprite.svg#icon-map"></use>
+                  <use xlink:href="./css-img/images/sprite.svg#icon-map"></use>
                 </svg><span>Tours</span>
               </a>
             </li>
@@ -89,13 +97,13 @@
         <main class="hotel-view">
           <div class="gallery">
             <figure class="gallery__item">
-              <img src="./css/images/hotel-1.jpg" alt="Hotel 1" class="gallery__photo">
+              <img src="./css-img/images/hotel-1.jpg" alt="Hotel 1" class="gallery__photo">
             </figure>
             <figure class="gallery__item">
-              <img src="./css/images/hotel-2.jpg" alt="Hotel 2" class="gallery__photo">
+              <img src="./css-img/images/hotel-2.jpg" alt="Hotel 2" class="gallery__photo">
             </figure>
             <figure class="gallery__item">
-              <img src="./css/images/hotel-3.jpg" alt="Hotel 3" class="gallery__photo">
+              <img src="./css-img/images/hotel-3.jpg" alt="Hotel 3" class="gallery__photo">
             </figure>
           </div>
 
@@ -103,25 +111,25 @@
             <h1 class="overview__heading">Hotel Las Palmas</h1>
             <div class="overview__stars">
               <svg class="overview__icon-star">
-                <use xlink:href="./css/images/sprite.svg#icon-star"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-star"></use>
               </svg>
               <svg class="overview__icon-star">
-                <use xlink:href="./css/images/sprite.svg#icon-star"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-star"></use>
               </svg>
               <svg class="overview__icon-star">
-                <use xlink:href="./css/images/sprite.svg#icon-star"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-star"></use>
               </svg>
               <svg class="overview__icon-star">
-                <use xlink:href="./css/images/sprite.svg#icon-star"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-star"></use>
               </svg>
               <svg class="overview__icon-star">
-                <use xlink:href="./css/images/sprite.svg#icon-star"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-star"></use>
               </svg>
             </div>
 
             <div class="overview__location">
               <svg class="overview__icon-location">
-                <use xlink:href="./css/images/sprite.svg#icon-location-pin"></use>
+                <use xlink:href="./css-img/images/sprite.svg#icon-location-pin"></use>
               </svg>
               <button class="btn-inline">Albufeira, Portugal</button>
             </div>
@@ -157,10 +165,10 @@
               <div class="recommend">
                 <p class="recommend__count">Lucy and 3 other friends recommend this hotel</p>
                 <div class="recommend__friends">
-                  <img src="./css/images/user-3.jpg" alt="Friend 1" class="recommend__photo">
-                  <img src="./css/images/user-4.jpg" alt="Friend 2" class="recommend__photo">
-                  <img src="./css/images/user-5.jpg" alt="Friend 3" class="recommend__photo">
-                  <img src="./css/images/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                  <img src="./css-img/images/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                  <img src="./css-img/images/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                  <img src="./css-img/images/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                  <img src="./css-img/images/user-6.jpg" alt="Friend 4" class="recommend__photo">
                 </div>
               </div>
             </div>
@@ -171,7 +179,7 @@
                   doloremque architecto dicta animi, totam, itaque officia
                   ex.</blockquote>
                 <figcaption class="review__user">
-                  <img src="./css/images/user-1.jpg" alt="User 1" class="review__photo">
+                  <img src="./css-img/images/user-1.jpg" alt="User 1" class="review__photo">
                   <div class="review__user-box">
                     <p class="review__user-name">Nick Smith</p>
                     <p class="review__user-date">Feb 23rd, 2017</p>
@@ -184,7 +192,7 @@
                 <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
                   doloremque architecto dicta animi.</blockquote>
                 <figcaption class="review__user">
-                  <img src="./css/images/user-2.jpg" alt="User 1" class="review__photo">
+                  <img src="./css-img/images/user-2.jpg" alt="User 1" class="review__photo">
                   <div class="review__user-box">
                     <p class="review__user-name">Mary Thomas</p>
                     <p class="review__user-date">Sep 13th, 2017</p>
