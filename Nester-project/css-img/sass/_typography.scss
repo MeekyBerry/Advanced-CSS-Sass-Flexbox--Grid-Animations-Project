@@ -8,52 +8,44 @@
 }
 
 .heading-2 {
-  @extend %heading;
-  font-size: 1.8rem;
-  font-style: italic;
-  line-height: 0.8;
+    @extend %heading;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: .8;
 
-  &--light {
-    color: $color-grey-light-1;
-  }
-  &--dark {
-    color: $color-grey-dark-1;
-  }
+    &--light { color: $color-grey-light-1; }
+    &--dark { color: $color-grey-dark-1; }
 }
 
 .heading-3 {
-  @extend %heading;
-  font-size: 1rem;
-  color: $color-primary;
-  text-transform: uppercase;
+    @extend %heading;
+    font-size: 1rem;
+    color: $color-primary;
+    text-transform: uppercase;
 }
 
 .heading-4 {
-  @extend %heading;
-  font-size: 1rem;
-  font-weight: 600;
+    @extend %heading;
+    font-size: 1rem;
+    font-weight: 600;
 
-  &--light {
-    color: $color-grey-light-1;
-  }
-  &--dark {
-    color: $color-grey-dark-1;
-  }
+    &--light { color: $color-grey-light-1; }
+    &--dark { color: $color-grey-dark-1; }
 }
 
 .btn {
-  background-color: $color-primary;
-  color: $color-white;
-  border: none;
-  border-radius: 0;
-  font-family: $font-display;
-  font-size: 1rem;
-  text-transform: uppercase;
-  padding: 1rem;
-  cursor: pointer;
-  transition: all 2s;
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-family: $font-display;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 2s;
 
-  &:hover {
-    background-color: $color-primary-dark;
-  }
+    &:hover {
+        background-color: $color-primary-dark;
+    }
 }

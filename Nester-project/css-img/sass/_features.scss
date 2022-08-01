@@ -2,16 +2,17 @@
   grid-column: center-start / center-end;
   margin: 15rem 0;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 2rem;
-  align-items: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    align-items: start;
 }
 
 .feature {
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 1.5rem;
+ 
 
   &__icon {
     fill: $color-primary;
