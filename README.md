@@ -7,5 +7,5 @@ Instructor: Jonas Schmedtmann
 Still in progress
 
 ### Projects Live url
-* [Natours](https://mellow-treacle-fc29d6.netlify.app)
-* [Trillow](https://illustrious-sundae-93c260.netlify.app)
+* [Natours](https://natour-landing-page.netlify.app/)
+* [Trillow](https://fantastic-crostata-3e9a02.netlify.app/)
